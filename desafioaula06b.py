@@ -1,0 +1,11 @@
+n1 = (input('Digite algo'))
+print(type(n1))
+
+print('é um número?', n1.isnumeric())
+print('é alfanumérico?', n1.isalnum())
+print('está em minúsculo?', n1.islower())
+print('é um dígito?', n1.isdigit())
+print('é espaço?', n1.isspace())
+print('está em maiúsculo?', n1.isupper())
+print('É alfabético?', n1.isalpha())
+print(n1.isprintable())
